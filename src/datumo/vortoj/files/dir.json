@@ -1,0 +1,81 @@
+{
+    "radiko": "dir",
+    "vortoj": [
+        {
+            "sufikso": "i",
+            "tradukoj": {
+                "en-US": "to say",
+                "pt-BR": "dizer"
+            }
+        },
+        {
+            "sufikso": "o",
+            "tradukoj": {
+                "en-US": "statement"
+            }
+        },
+        {
+            "prefikso": "antaŭ",
+            "sufikso": "i",
+            "tradukoj": {
+                "en-US": "to predict"
+            }
+        },
+        {
+            "prefikso": "kontraŭ",
+            "sufikso": "i",
+            "tradukoj": {
+                "en-US": "to contradict"
+            }
+        },
+        {
+            "prefikso": "kvazaŭ",
+            "sufikso": "i",
+            "tradukoj": {
+                "en-US": ["to insinuate", "to suggest"]
+            }
+        },
+        {
+            "prefikso": "pri",
+            "sufikso": "i",
+            "tradukoj": {
+                "en-US": "to speak of"
+            }
+        },
+        {
+            "prefikso": "re",
+            "sufikso": "i",
+            "tradukoj": {
+                "en-US": "to repeat"
+            }
+        },
+        {
+            "prefikso": "trans",
+            "sufikso": "i",
+            "tradukoj": {
+                "en-US": ["to pass on", "to transmit"]
+            }
+        },
+        {
+            "prefikso": "oni",
+            "sufikso": "o",
+            "tradukoj": {
+                "en-US": "rumor"
+            }
+        },
+        {
+            "prefikso": "popol",
+            "sufikso": "o",
+            "tradukoj": {
+                "en-US": "popular saying"
+            }
+        },
+        {
+            "prefikso": "el",
+            "sufikso": "i",
+            "tradukoj": {
+                "pt-BR": "pronunciar"
+            }
+        }
+    ]
+}

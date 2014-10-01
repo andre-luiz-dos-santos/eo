@@ -1,0 +1,16 @@
+.lingvarano,
+.radikarano {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/*
+http://angular-ui.github.io/bootstrap/
+Under the header CSS
+*/
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+    cursor: pointer;
+}

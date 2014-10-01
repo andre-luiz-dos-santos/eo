@@ -1,0 +1,38 @@
+<div eo-navbar eo-title="Esperanto" eo-menu="menu"></div>
+
+<div class="container-fluid"
+     style="padding-top: 70px">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                Radikoj
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-2">
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text"
+                                   class="form-control"
+                                   placeholder="Filtrilo"
+                                   id="radiko"
+                                   ng-model="radikojFilter">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-8">
+                    <span class="radikarano"
+                          ng-repeat="radiko in radikoj | filter:radikojFilter">
+                        <a ng-href="#/afiksoj/{{ radiko }}"
+                           class="btn btn-info">
+                            {{ radiko }}
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

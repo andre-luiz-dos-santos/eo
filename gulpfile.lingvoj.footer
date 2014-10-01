@@ -1,0 +1,15 @@
+  }
+
+  cache = $cacheFactory('lingvoj-http-cache');
+
+  angular.forEach(data,
+    function(json, vorto) {
+      cache.put(
+        'datumo/lingvoj/files/' + vorto + '.json',
+        JSON.stringify(json)
+      );
+    }
+  );
+
+  return cache;
+});

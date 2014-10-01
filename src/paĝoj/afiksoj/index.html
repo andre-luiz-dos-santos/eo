@@ -1,0 +1,76 @@
+<div eo-navbar eo-title="Esperanto" eo-menu="menu"></div>
+
+<div class="container-fluid"
+     style="padding-top: 70px">
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                Lingvoj
+            </h3>
+        </div>
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-sm-4">
+                    Elektu la lingvojn tiujn, kiujn vi volas vidi en la dekstra flanko de la suba tablo.
+                </div>
+                <div class="col-sm-6">
+                    <span class="lingvarano"
+                          ng-repeat="lingvo in datumoj.lingvoj">
+                        <button type="button" class="btn btn-default"
+                            ng-model="lingvo.montru"
+                            ng-class="{ 'btn-success':lingvo.montru, 'btn-default':!lingvo.montru }"
+                            btn-checkbox>
+                            {{ lingvo.nomo }}
+                        </button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">
+                Vortoj
+            </h3>
+        </div>
+        <!--<div class="panel-body">-->
+        <!--</div>-->
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Prefikso</th>
+                    <th>Radiko</th>
+                    <th>Sufikso</th>
+                    <th>Signifoj</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="vorto in datumoj.vortoj">
+                    <td ng-class="{warning: vorto.prefikso}">
+                        {{ vorto.prefikso }}
+                    </td>
+                    <td class="active">
+                        {{ vorto.radiko }}
+                    </td>
+                    <td ng-class="{warning: vorto.sufikso}">
+                        {{ vorto.sufikso }}
+                    </td>
+                    <td class="success">
+                        <div ng-repeat="traduko in vorto.tradukoj"
+                             ng-if="traduko.lingvo.montru">
+                            <div ng-repeat="signifo in traduko.signifoj">
+                                {{ signifo }}
+                                <span class="label label-success">
+                                    {{ traduko.lingvo.nometo }}
+                                </span>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

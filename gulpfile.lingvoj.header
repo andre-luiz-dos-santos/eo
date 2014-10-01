@@ -1,0 +1,3 @@
+angular.module('esperantoProgramo.datumo.lingvoj').
+  factory('LingvojHttpCache', function($cacheFactory) {
+    data = {

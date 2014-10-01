@@ -1,0 +1,19 @@
+  }
+
+  index = []
+  cache = $cacheFactory('vortoj-http-cache');
+
+  angular.forEach(data,
+    function(json, vorto) {
+      index.push(vorto);
+      cache.put(
+        'datumo/vortoj/files/' + vorto + '.json',
+        JSON.stringify(json)
+      );
+    }
+  );
+
+  cache.put('datumo/vortoj/index.json', JSON.stringify(index));
+
+  return cache;
+});

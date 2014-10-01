@@ -1,0 +1,3 @@
+angular.module('esperantoProgramo.datumo.vortoj').
+  factory('VortojHttpCache', function($cacheFactory) {
+    data = {
