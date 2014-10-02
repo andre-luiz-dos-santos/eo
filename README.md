@@ -61,7 +61,9 @@ vorto | word
 
 ## Ligiloj
 
-* [Plena Ilustrita Vortaro de Esperanto](http://vortaro.net/)
+* [Lingvohelpilo](http://beta.visl.sdu.dk/lingvohelpilo/) ([alia interfaco](http://beta.visl.sdu.dk/visl/eo/tools/spelling.php))
+* [Plena Ilustrita Vortaro](http://vortaro.net/)
+* [Reta Vortaro](http://www.reta-vortaro.de)
 * [Disqus Admin interface](https://esperanto2.disqus.com/admin/)
 
 ## Notoj
