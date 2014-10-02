@@ -2,6 +2,8 @@
 
 [Hosted on Google Drive](http://goo.gl/iFFx4F).
 
+![QR](http://chart.googleapis.com/chart?cht=qr&chs=200x200&choe=UTF-8&chld=H|0&chl=http://goo.gl/iFFx4F)
+
 ## Tradukoj
 
 Esperanto | English
