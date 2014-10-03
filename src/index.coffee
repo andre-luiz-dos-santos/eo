@@ -6,6 +6,7 @@ angular.module('esperantoProgramo', [
   'esperantoProgramo.paĝoj.pri'
   'esperantoProgramo.paĝoj.radikoj'
   'esperantoProgramo.paĝoj.afiksoj'
+  'esperantoProgramo.paĝoj.ligiloj'
 ])
 
 .config ($routeProvider) ->

@@ -3,7 +3,7 @@
 <div class="container-fluid"
      style="padding-top: 70px">
 
-    <div class="panel panel-default">
+    <div class="panel panel-success">
         <div class="panel-heading">
             <h3 class="panel-title">
                 Lingvoj
@@ -19,7 +19,7 @@
                           ng-repeat="lingvo in datumoj.lingvoj">
                         <button type="button" class="btn btn-default"
                             ng-model="lingvo.montru"
-                            ng-class="{ 'btn-success':lingvo.montru, 'btn-default':!lingvo.montru }"
+                            ng-class="{ 'btn-primary':lingvo.montru, 'btn-default':!lingvo.montru }"
                             btn-checkbox>
                             {{ lingvo.nomo }}
                         </button>
@@ -29,14 +29,12 @@
         </div>
     </div>
 
-    <div class="panel panel-default">
+    <div class="panel panel-primary">
         <div class="panel-heading">
             <h3 class="panel-title">
                 Vortoj
             </h3>
         </div>
-        <!--<div class="panel-body">-->
-        <!--</div>-->
         <table class="table">
             <thead>
                 <tr>

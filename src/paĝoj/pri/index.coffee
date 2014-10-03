@@ -15,5 +15,6 @@ angular.module('esperantoProgramo.paĝoj.pri', [
 .controller 'PriController', ($scope) ->
   $scope.menu = [
     ['Radikoj', '#/radikoj']
+    ['Ligiloj', '#/ligiloj']
   ]
   return
