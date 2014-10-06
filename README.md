@@ -59,13 +59,6 @@ vorto | word
     bower install bootstrap --save
     bower install angular-bootstrap --save
 
-## Ligiloj
-
-* [Lingvohelpilo](http://beta.visl.sdu.dk/lingvohelpilo/) ([alia interfaco](http://beta.visl.sdu.dk/visl/eo/tools/spelling.php))
-* [Plena Ilustrita Vortaro](http://vortaro.net/)
-* [Reta Vortaro](http://www.reta-vortaro.de)
-* [Disqus Admin interface](https://esperanto2.disqus.com/admin/)
-
 ## Notoj
 
 In the 'gulpfile.*.footer' files, 'JSON.stringify' is used so that Angular's '$resource' returns a copy of the object, instead of the object itself.
